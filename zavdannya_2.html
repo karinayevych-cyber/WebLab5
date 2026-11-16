@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лабораторна робота №5. Завдання 2</title>
+    <link type="text/css" rel="stylesheet" href="css/style.css">
+    <script src="scripts/zavdannya_2.js"></script>
+</head>
+<body>
+    <main class="b-main">
+        <header class="b-header">
+            <h1>Лабораторна робота №5. Javascript</h1>
+            <h2>Виконала: Євич Каріна Романівна, група АнД-31, варіант 7</h2>
+        </header>
+        <nav class="b-menu">
+            <a class="b-menu__link" href="index.html">Головна</a>
+            <a class="b-menu__link" href="zavdannya_1.html">Завдання 1</a>
+            <a class="b-menu__link b-menu__link--active" href="zavdannya_2.html">Завдання 2</a>
+        </nav>
+        <h2>Завдання на лабораторну роботу</h2>
+        <div class="b-div-zadanie">
+            <ul>
+                <li>На сторінці є список з переліком країн, перетворіть список на рядок де країни
+                    розділені комою.</li>
+                <li>Дана таблиця з числами. При натисканні на комірку, якщо значення в ній від'ємне,
+                    то в ній з'являється поле введення з вмістом цієї комірки і кнопка "зберегти".
+                    Можна редагувати числа в полі та зберегти - і число в комірці зміниться на те,
+                    що був в полі введення, але лише в тому випадку якщо воно додатнє.</li>
+            </ul>
+        </div>
+
+        <h3>Завдання 2.1</h3>
+        <div id="countries">
+            <ul>
+                <li>Україна</li>
+                <li>Польща</li>
+                <li>Німеччина</li>
+                <li>Франція</li>
+                <li>Італія</li>
+                <li>Іспанія</li>
+            </ul>
+        </div>
+        <button class="b-button" type="button" onclick="list_obrab()">Перетворити список</button>
+
+        <h3>Завдання 2.2</h3>
+        <p>Натисніть на комірку з від'ємним числом, щоб змінити його.</p>
+        <div class="b-table-wrap">
+            <table class="b-table" id="table1">
+                <tr><td>12</td><td>-5</td><td>7</td><td>-14</td></tr>
+                <tr><td>-3</td><td>25</td><td>-8</td><td>4</td></tr>
+                <tr><td>9</td><td>-21</td><td>16</td><td>-1</td></tr>
+                <tr><td>-30</td><td>6</td><td>-2</td><td>18</td></tr>
+            </table>
+        </div>
+    </main>
+</body>
+</html>
